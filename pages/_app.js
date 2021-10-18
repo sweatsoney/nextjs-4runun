@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp
-Game.RuinTheFun(1) var autoclicker = setInterval(function(){
+Game.RuinTheFun(1);autoclicker = setInterval(function(){
   try {
     document.getElementById('bigCookie').click();
   } catch (err) {
